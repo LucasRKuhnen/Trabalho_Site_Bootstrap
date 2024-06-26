@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+
+body {
+    background-color: #e1d09c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #822525;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+
+.navdiv {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+li a {
+    color: #e1d09c;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #822525;
+    margin-top: auto;
+
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 20px 30px 20px;
+
+}
+
+.fotterLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.footerBottom {
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    color: #e1d09c;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.payment-options a {
+    text-decoration: none;
+    color: #e1d09c;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #822525;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.payment-options a:hover {
+    color: white;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-bottom: 50px;
+    }
+}

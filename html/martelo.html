@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/styleSobre.css">
+    <link rel="stylesheet" href="/CSS/comprar.css">
 </head>
 
 <body>
@@ -31,7 +30,7 @@
                         <a class="nav-link" href="/html/produtos.html">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/html/sobre.html">Sobre</a>
+                        <a class="nav-link" href="/html/sobre.html">Sobre</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/html/contato.html">Contato</a>
@@ -42,19 +41,28 @@
     </nav>
 
     <!-- Corpo da Página-->
-    <div class="container-sobre">
-        <h1>Sobre nós</h1>
-        <p>A história da LJ Materiais de Construção teve início em 1994, quando dois amigos decidiram estabelecer um
-            empreendimento com o objetivo de oferecer produtos de maior qualidade à cidade de Itapema. Na época, as
-            lojas locais disponibilizavam apenas produtos antigos e de baixa qualidade.</p>
-        <p>Desde então, a LJ Materiais de Construção se destacou como uma das pioneiras na adoção de um website,
-            expandindo suas operações para todo o Brasil e deixando de estar restrita a uma única região.</p>
-        <p>Ao longo dos anos, a pequena loja no centro da cidade cresceu exponencialmente, transformando-se em 54
-            filiais espalhadas por toda a região Sul do Brasil. Além de priorizar a qualidade dos produtos, a LJ
-            Materiais de Construção continua buscando inovações e se comprometendo com a excelência no atendimento aos
-            clientes. Com um olhar voltado para o futuro, a empresa planeja continuar sua trajetória de sucesso,
-            explorando novas oportunidades de crescimento e contribuindo para o desenvolvimento das comunidades em que
-            está inserida.</p>
+
+    <div class="container mt-5" style="background-color: #822525;">
+        <div class="row">
+            <div class="col-md-6" style="background-color: white;">
+                <img class="img-fluid" src="/imagens/produtos/Martelo.png" alt="Martelo">
+            </div>
+            <div class="col-md-6" style="color: white; margin-top: 20px;">
+                <h2>Martelo Tipo Unha 30mm 450g 7861-16 King Tony</h2>
+                <p>Marca: KING TONY</p>
+                <p>Modelo: 6635-13</p>
+                <p>Garantia: 3 meses</p>
+                <div class="d-flex justify-content-between align-items-center my-4">
+                    <p class="fw-bold mb-0">R$ 46,00<br><small>Ou 10x de 4,60</small></p>
+                    <p class="mb-0">Quantidade: 1</p>
+                </div>
+                <div class="d-flex justify-content-around payment-options">
+                    <a class="payment-btn credito" href="credito">Crédito</a>
+                    <a class="payment-btn debito" href="debito">Débito</a>
+                    <a class="payment-btn pix" href="pix">Pix</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Rodapé Página -->
