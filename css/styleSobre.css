@@ -35,12 +35,20 @@ body {
 .container-sobre {
     background-color: #822525;
     color: white;
-    max-width: 800px;
+    max-width: 900px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
     font-weight: bold;
+    font-size: 23px;
 }
+
+@media only screen and (max-width: 940px) {
+    .container-sobre {
+      margin: 20px;
+      font-size: 22px;
+    }
+  }
 
 
 footer {
